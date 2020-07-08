@@ -1,0 +1,211 @@
+h1 {
+    color: #b5525c
+}
+
+h2 {
+   color: rgb(181, 82, 92, 0.5) ; 
+}
+
+.container-fluid{
+    padding: 7% 15%;
+  }
+
+
+/* Navbar Styling */
+.header-navbar {
+    border-bottom: 2px #6bc5d2 solid;
+    
+}
+
+.navbar {
+    background-color: #d2fafb;
+}
+
+.nav-item {
+    border-right: 2px #6bc5d2 solid;
+    padding: 0 25px;
+    font-weight: 700;
+    font-size: 1.15rem;  
+}
+
+.nav-link {
+    color: #6bc5d2;
+}
+
+
+.search-box {
+    background-color: #F5F5F5;
+}
+
+.search-btn {
+    background-color: #6bc5d2;
+    color: #d2fafb;
+
+}
+
+.search-btn:hover{
+    background-color:#d2fafb;
+    color: #6bc5d2;
+}
+
+
+/* Header Section Styling */
+
+.section-title {
+    background-color: rgb(210, 250, 251, 0.4);
+}
+
+.title-container{
+    padding: 20px 10px 30px 10px;
+}
+
+.title-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+
+.title-section h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.title-section h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+
+.title-quote{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 50px;
+}
+
+.header-image {
+    border:7px double #6bc5d2;
+    height: auto;
+    width: 250px;
+    margin: 20px 5px;
+    padding:8px 15px;
+}
+
+
+
+
+  /* Great Minds Section Styling */
+
+.minds-container {
+      background-color: #6bc5d2;
+      padding:35px 25px;
+  }
+
+.card {
+    margin: 50px 25px;
+    border: 8px #b5525c double;
+}
+
+
+
+.card-image {
+    width:200px;
+    height: 200px;
+    padding-bottom: 5px;
+}
+
+#who-next-text {
+    padding-top: 50px;
+}
+
+
+
+  
+  /* Images Section Styling */
+  
+.image-section-container {
+    border-top: 5px solid black;
+    padding:10px 10px;
+  }
+
+.carousel-item img {
+      width:30%;
+  }
+
+.control-btn {
+    background-color: #b5525c;
+  }
+
+.carousel-caption {
+    color:blue;
+    margin-right: 50rem;
+}
+
+
+
+  
+  /* Survey Section Styling */
+  
+  .survey-section-container {
+    border-top: 5px solid black;
+
+    padding:10px 10px;
+  }
+
+  /* Footer Section Styling */
+
+
+
+
+  /* SETTING RESPONSIVENESS */
+/* 
+  
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+ */
+
+
+ @media screen and (max-width: 800px) {
+
+    .title-section {
+        margin: auto;
+        text-align: center;
+    }
+    .title-section h1 {
+        font-size: 3rem;
+        
+    }
+    .title-section h2 {
+        font-size: 2rem;
+    }
+    .title-quote h3 {
+        font-size: 1.25rem;
+    }
+    .title-quote {
+        font-size: 1rem;
+    }
+    
+    /* .image-column {
+        flex: 50%;
+        max-width: 50%;
+      } */
+    }
+
+/* @media screen and (max-width: 600px) {
+    .image-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+  } */
