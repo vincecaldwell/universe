@@ -4,6 +4,7 @@ h1 {
 
 h2 {
    color: rgb(181, 82, 92, 0.5) ; 
+   font-style: italic;
 }
 
 .container-fluid{
@@ -113,6 +114,9 @@ h2 {
     height: 200px;
     padding-bottom: 5px;
 }
+.card-image:hover {
+transform: rotate(8deg);
+}
 
 #who-next-text {
     padding-top: 50px;
@@ -123,23 +127,51 @@ h2 {
   
   /* Images Section Styling */
   
-.image-section-container {
-    border-top: 5px solid black;
-    padding:10px 10px;
+.image-carousel-container {
+
+    margin: 3rem 0;
+  }
+/* .carousel {
+    width:640px;
+  height:360px; 
+} */
+
+.carousel-item img {  
+   width: 30%;
+   
+
   }
 
-.carousel-item img {
-      width:30%;
-  }
+  .carousel-caption {
+    color:black;
+    font-size:0.65rem;
+    text-align:left;
+    width: 200px;
+    line-height: normal;
+    height: fill-available;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width:5%;
+    top: 45%;
+    bottom: 45%;
+}
+
+.carousel-control-prev {
+    left:4rem
+}
+
+.carousel-control-next {
+    right:4rem;
+}
+
 
 .control-btn {
     background-color: #b5525c;
-  }
+    
 
-.carousel-caption {
-    color:blue;
-    margin-right: 50rem;
 }
+
 
 
 
@@ -147,13 +179,58 @@ h2 {
   /* Survey Section Styling */
   
   .survey-section-container {
-    border-top: 5px solid black;
-
-    padding:10px 10px;
+ 
+    padding:10px 25px;
+    background-color: #d2fafb;
   }
+  .survey-section-container h2 {
+      text-align: center;
+      padding: 20px 0;
+      color:#6bc5d2;
+      font-weight: 600;
+  }
+
+  .survey-section-container .main-labels {
+      font-weight: 700;
+      text-decoration: underline;
+      color:#6bc5d2;
+  }
+
+  .survey-section-container .question-label {
+      font-weight: 500;
+      color:#6bc5d2;
+  }
+
+  .survey-btn {
+    background-color: #6bc5d2;
+      
+  }
+  .survey-btn:hover {
+    background-color: #105e62;
+    color: #6bc5d2;
+  }
+
+
+
 
   /* Footer Section Styling */
 
+.footer {
+    padding:30px 0 20px 0;
+    text-align: center;
+}
+
+.links p {
+    font-size: small;
+    color: #b5525c;
+    font-weight: 600;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+    color: #b5525c;
+    font-size: large;
+}
 
 
 
@@ -197,10 +274,10 @@ h2 {
         font-size: 1rem;
     }
     
-    /* .image-column {
-        flex: 50%;
-        max-width: 50%;
-      } */
+    .carousel-indicators {
+        display: none;;
+    }
+
     }
 
 /* @media screen and (max-width: 600px) {
