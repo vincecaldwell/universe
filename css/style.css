@@ -118,10 +118,6 @@ h2 {
 transform: rotate(8deg);
 }
 
-#who-next-text {
-    padding-top: 50px;
-}
-
 
 
   
@@ -138,9 +134,10 @@ transform: rotate(8deg);
 
 .carousel-item img {  
    width: 30%;
+  }
+
    
 
-  }
 
   .carousel-caption {
     color:black;
@@ -278,7 +275,9 @@ transform: rotate(8deg);
         display: none;;
     }
 
-    }
+}
+
+    
 
 /* @media screen and (max-width: 600px) {
     .image-column {
