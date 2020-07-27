@@ -124,27 +124,21 @@ transform: rotate(8deg);
   /* Images Section Styling */
   
 .image-carousel-container {
-
     margin: 3rem 0;
   }
-/* .carousel {
-    width:640px;
-  height:360px; 
-} */
+
 
 .carousel-item img {  
    width: 30%;
   }
 
    
-
-
-  .carousel-caption {
+.carousel-caption {
     color:black;
-    font-size:0.65rem;
+    font-size:0.75rem;
     text-align:left;
     width: 200px;
-    line-height: normal;
+    line-height: 1.75rem;
     height: fill-available;
 }
 
@@ -165,8 +159,6 @@ transform: rotate(8deg);
 
 .control-btn {
     background-color: #b5525c;
-    
-
 }
 
 
@@ -250,8 +242,17 @@ transform: rotate(8deg);
 @media (min-width: 1200px) { ... }
  */
 
+ @media screen and (max-width: 1084px) {
+    .carousel-caption {
+        width: 120px;
+        line-height: normal;
+        font-size:0.65rem;
+    }
 
- @media screen and (max-width: 800px) {
+}
+
+
+ @media screen and (max-width: 768px) {
 
     .title-section {
         margin: auto;
@@ -275,13 +276,15 @@ transform: rotate(8deg);
         display: none;;
     }
 
-}
-
-    
-
-/* @media screen and (max-width: 600px) {
-    .image-column {
-        flex: 100%;
-        max-width: 100%;
+    .carousel-item img{
+        width:95%;
     }
-  } */
+
+    .control-btn {
+        color: white;
+    }
+
+    .carousel-caption {
+        display: none;
+    }
+}
